@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.628571;
+}
+.list-group-item {
+    padding: 5px 15px 0px;
+}
+p {
+    margin: 0 0 0.3em;
+}
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+}
+footer.post-info {
+    font-size: 0.8em;
+}
+.panel-body {
+    padding: 5px;
+}
+.navbar-search {
+    padding: 10px 15px;
+}
+.highlight pre {
+    line-height: 1.2;
+    border-radius: 0px;
+}
+.list-group-item h4 {
+    font-size: 18px;
+}
+.well>.list-group>.list-group-item {
+    border-bottom: #eed solid 5px;
+    padding: 10px 0;
+}
+.well>.list-group>li:first-child {
+    border-top: #eed solid 5px;
+    margin-top: 15px;
+}
+
+ul#tags {
+    list-style: none;
+    padding: 0;
+}
+
+ul#tags li {
+    display: inline-block;
+} 
+/*
+#tipue_search_input {
+    width: 212.5px;
+}
+*/
