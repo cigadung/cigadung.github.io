@@ -130,8 +130,6 @@ pip 8.1.1 from /usr/lib/python2.7/dist-packages <span class="o">(</span>python 2
 <span class="c1"># Install virtualenv</span>
 $ sudo pip install virtualenv
 </pre></div>
-
-
 <div class="highlight"><pre><span></span><span class="c1"># Install virtualenv</span>
 $ virtualenv cigadung-pelican
 New python executable in /home/em/statik/cigadung-pelican/bin/python
@@ -156,27 +154,23 @@ $ git clone --recursive https://github.com/getpelican/pelican-themes ./pelican-t
 <span class="c1"># Generator, QA</span>
 $ pelican-quickstart
 </pre></div>
-
-
 <div class="highlight"><pre><span></span><span class="c1"># Makefile bawaan pelican-quickstart</span>
 $ make devserver
 $ make stopserver
 $ make clean
 </pre></div>
-
-
 <div class="highlight"><pre><span></span><span class="ch">#!/usr/bin/env python</span>
 <span class="c1"># -*- coding: utf-8 -*- #</span>
 <span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">unicode_literals</span>
 <span class="kn">import</span> <span class="nn">os</span>
 
-<span class="n">AUTHOR</span> <span class="o">=</span> <span class="s1">&#39;CFC Admin&#39;</span>
-<span class="n">SITENAME</span> <span class="o">=</span> <span class="s1">&#39;Cigadung FC&#39;</span>
-<span class="n">SITEURL</span> <span class="o">=</span> <span class="s1">&#39;http://localhost:8000&#39;</span>
+<span class="n">AUTHOR</span> <span class="o">=</span> <span class="s1">'CFC Admin'</span>
+<span class="n">SITENAME</span> <span class="o">=</span> <span class="s1">'Cigadung FC'</span>
+<span class="n">SITEURL</span> <span class="o">=</span> <span class="s1">'http://localhost:8000'</span>
 
-<span class="n">PATH</span> <span class="o">=</span> <span class="s1">&#39;content&#39;</span>
-<span class="n">TIMEZONE</span> <span class="o">=</span> <span class="s1">&#39;Asia/Jakarta&#39;</span>
-<span class="n">DEFAULT_LANG</span> <span class="o">=</span> <span class="s1">&#39;en&#39;</span>
+<span class="n">PATH</span> <span class="o">=</span> <span class="s1">'content'</span>
+<span class="n">TIMEZONE</span> <span class="o">=</span> <span class="s1">'Asia/Jakarta'</span>
+<span class="n">DEFAULT_LANG</span> <span class="o">=</span> <span class="s1">'en'</span>
 
 <span class="c1"># Feed generation is usually not desired when developing</span>
 <span class="n">FEED_ALL_ATOM</span> <span class="o">=</span> <span class="bp">None</span>
@@ -191,42 +185,42 @@ $ make clean
 <span class="n">DISPLAY_TAGS_ON_SIDEBAR</span> <span class="o">=</span> <span class="bp">True</span>
 <span class="n">TAG_CLOUD_MAX_ITEMS</span> <span class="o">=</span> <span class="mi">10</span>
 
-<span class="n">DISQUS_SITENAME</span> <span class="o">=</span> <span class="s1">&#39;cigadung&#39;</span>
+<span class="n">DISQUS_SITENAME</span> <span class="o">=</span> <span class="s1">'cigadung'</span>
 
 <span class="c1"># Blogroll</span>
 <span class="n">LINKS</span> <span class="o">=</span> <span class="bp">None</span>
 
-<span class="n">THEME</span> <span class="o">=</span> <span class="s2">&quot;themes/pelican-bootstrap3&quot;</span>
-<span class="n">BOOTSTRAP_THEME</span> <span class="o">=</span> <span class="s1">&#39;paper&#39;</span>
-<span class="n">CUSTOM_CSS</span> <span class="o">=</span> <span class="s1">&#39;static/custom.css&#39;</span>
+<span class="n">THEME</span> <span class="o">=</span> <span class="s2">"themes/pelican-bootstrap3"</span>
+<span class="n">BOOTSTRAP_THEME</span> <span class="o">=</span> <span class="s1">'paper'</span>
+<span class="n">CUSTOM_CSS</span> <span class="o">=</span> <span class="s1">'static/custom.css'</span>
 
-<span class="n">STATIC_PATHS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;images&#39;</span><span class="p">,</span> <span class="s1">&#39;extra/custom.css&#39;</span><span class="p">]</span>
+<span class="n">STATIC_PATHS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'images'</span><span class="p">,</span> <span class="s1">'extra/custom.css'</span><span class="p">]</span>
 
 <span class="n">EXTRA_PATH_METADATA</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s1">&#39;extra/custom.css&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;path&#39;</span><span class="p">:</span> <span class="s1">&#39;static/custom.css&#39;</span><span class="p">}</span>
+    <span class="s1">'extra/custom.css'</span><span class="p">:</span> <span class="p">{</span><span class="s1">'path'</span><span class="p">:</span> <span class="s1">'static/custom.css'</span><span class="p">}</span>
 <span class="p">}</span>
 
 <span class="n">DEFAULT_PAGINATION</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="n">BANNER</span> <span class="o">=</span> <span class="s1">&#39;images/cfc2.jpg&#39;</span>
-<span class="n">BANNER_SUBTITLE</span> <span class="o">=</span> <span class="s1">&#39;Code, DevOps, Coffee &amp; Fun&#39;</span>
+<span class="n">BANNER</span> <span class="o">=</span> <span class="s1">'images/cfc2.jpg'</span>
+<span class="n">BANNER_SUBTITLE</span> <span class="o">=</span> <span class="s1">'Code, DevOps, Coffee &amp; Fun'</span>
 
 
-<span class="n">PLUGIN_PATHS</span> <span class="o">=</span> <span class="p">[</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;HOME&#39;</span><span class="p">),</span>
-                <span class="s1">&#39;statik/cigadung-pelican/pelican-plugins&#39;</span><span class="p">)]</span>
+<span class="n">PLUGIN_PATHS</span> <span class="o">=</span> <span class="p">[</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'HOME'</span><span class="p">),</span>
+                <span class="s1">'statik/cigadung-pelican/pelican-plugins'</span><span class="p">)]</span>
 
-<span class="n">PLUGINS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;tipue_search&#39;</span><span class="p">,</span>
-           <span class="s1">&#39;tag_cloud&#39;</span><span class="p">]</span>
+<span class="n">PLUGINS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'tipue_search'</span><span class="p">,</span>
+           <span class="s1">'tag_cloud'</span><span class="p">]</span>
 
-<span class="n">DIRECT_TEMPLATES</span> <span class="o">=</span> <span class="p">(</span><span class="s1">&#39;index&#39;</span><span class="p">,</span> <span class="s1">&#39;categories&#39;</span><span class="p">,</span> <span class="s1">&#39;authors&#39;</span><span class="p">,</span> <span class="s1">&#39;archives&#39;</span><span class="p">,</span> <span class="s1">&#39;search&#39;</span><span class="p">)</span>
+<span class="n">DIRECT_TEMPLATES</span> <span class="o">=</span> <span class="p">(</span><span class="s1">'index'</span><span class="p">,</span> <span class="s1">'categories'</span><span class="p">,</span> <span class="s1">'authors'</span><span class="p">,</span> <span class="s1">'archives'</span><span class="p">,</span> <span class="s1">'search'</span><span class="p">)</span>
 
-<span class="n">ARCHIVES_SAVE_AS</span> <span class="o">=</span> <span class="s1">&#39;archives.html&#39;</span>
+<span class="n">ARCHIVES_SAVE_AS</span> <span class="o">=</span> <span class="s1">'archives.html'</span>
 
-<span class="n">PYGMENTS_STYLE</span> <span class="o">=</span> <span class="s1">&#39;default&#39;</span>
+<span class="n">PYGMENTS_STYLE</span> <span class="o">=</span> <span class="s1">'default'</span>
 
 <span class="n">DISPLAY_RECENT_POSTS_ON_SIDEBAR</span> <span class="o">=</span> <span class="bp">True</span>
 
 <span class="c1"># Social widget</span>
-<span class="n">SOCIAL</span> <span class="o">=</span> <span class="p">((</span><span class="s1">&#39;github&#39;</span><span class="p">,</span> <span class="s1">&#39;http://github.com/cigadung&#39;</span><span class="p">),)</span>
+<span class="n">SOCIAL</span> <span class="o">=</span> <span class="p">((</span><span class="s1">'github'</span><span class="p">,</span> <span class="s1">'http://github.com/cigadung'</span><span class="p">),)</span>
 </pre></div>
             </div>
             <!-- /.entry-content -->
@@ -279,6 +273,11 @@ $ make clean
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="https://cigadung.github.io/blog/pokemongo-lib-tools">
+                            PokemonGo Lib & Tools
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="https://cigadung.github.io/blog/pasang-webhook">
                             Pasang Webhook
                         </a>
@@ -296,11 +295,6 @@ $ make clean
                     <li class="list-group-item">
                         <a href="https://cigadung.github.io/blog/web-cigadung-fc">
                             Web Cigadung FC
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="https://cigadung.github.io/blog/pertamax">
-                            Pertamax
                         </a>
                     </li>
                 </ul>
@@ -325,6 +319,21 @@ $ make clean
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
+                        <a href="https://cigadung.github.io/tags/github">
+                            github
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="https://cigadung.github.io/tags/tools">
+                            tools
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="https://cigadung.github.io/tags/lib">
+                            lib
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
                         <a href="https://cigadung.github.io/tags/python">
                             Python
                         </a>
@@ -332,11 +341,6 @@ $ make clean
                     <li class="list-group-item tag-4">
                         <a href="https://cigadung.github.io/tags/web">
                             web
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-4">
-                        <a href="https://cigadung.github.io/tags/github">
-                            github
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
