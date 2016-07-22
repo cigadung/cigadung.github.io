@@ -11,9 +11,7 @@
   &lt;span class="nx"&gt;console&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;log&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'Example app listening on port 3000!'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="p"&gt;});&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;ol&gt;
-&lt;li&gt;debug code 01&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="javascript"></category></entry><entry><title>Pelican-Install &amp; Config</title><link href="https://cigadung.github.io/blog/pelican-install-config" rel="alternate"></link><published>2016-07-09T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-09:blog/pelican-install-config</id><summary type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Check pip&lt;/span&gt;
+&lt;p&gt;Hope, automatic build ok now.&lt;/p&gt;</summary><category term="javascript"></category></entry><entry><title>Pelican-Install &amp; Config</title><link href="https://cigadung.github.io/blog/pelican-install-config" rel="alternate"></link><published>2016-07-09T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-09:blog/pelican-install-config</id><summary type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Check pip&lt;/span&gt;
 $ pip install --upgrade pip
 $ pip -V
 pip 8.1.1 from /usr/lib/python2.7/dist-packages &lt;span class="o"&gt;(&lt;/span&gt;python 2.7&lt;span class="o"&gt;)&lt;/span&gt;
