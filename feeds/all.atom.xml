@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Cigadung FC</title><link href="https://cigadung.github.io/" rel="alternate"></link><link href="https://cigadung.github.io/feeds/all.atom.xml" rel="self"></link><id>https://cigadung.github.io/</id><updated>2016-07-22T00:00:00+07:00</updated><entry><title>Build Test 00</title><link href="https://cigadung.github.io/blog/build-test-00" rel="alternate"></link><published>2016-07-22T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-22:blog/build-test-00</id><summary type="html">&lt;p&gt;This a dummy post, for testing purpose only&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;debug 01&lt;/li&gt;
-&lt;li&gt;debug 02&lt;/li&gt;
-&lt;li&gt;debug 03&lt;/li&gt;
-&lt;li&gt;debug 04&lt;/li&gt;
-&lt;li&gt;debug 05&lt;/li&gt;
-&lt;li&gt;debug 06&lt;/li&gt;
-&lt;li&gt;debug 07&lt;/li&gt;
-&lt;li&gt;debug 08&lt;/li&gt;
-&lt;li&gt;debug 09&lt;/li&gt;
-&lt;li&gt;debug 10&lt;/li&gt;
-&lt;/ol&gt;</summary></entry><entry><title>Node.JS Hello</title><link href="https://cigadung.github.io/blog/nodejs-hello" rel="alternate"></link><published>2016-07-22T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-22:blog/nodejs-hello</id><summary type="html">&lt;p&gt;Hello World via Node.JS&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Cigadung FC</title><link href="https://cigadung.github.io/" rel="alternate"></link><link href="https://cigadung.github.io/feeds/all.atom.xml" rel="self"></link><id>https://cigadung.github.io/</id><updated>2016-07-22T00:00:00+07:00</updated><entry><title>Node.JS Hello</title><link href="https://cigadung.github.io/blog/nodejs-hello" rel="alternate"></link><published>2016-07-22T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-22:blog/nodejs-hello</id><summary type="html">&lt;p&gt;Hello World via Node.JS&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;express&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'express'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;express&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
 
@@ -25,25 +13,7 @@
 &lt;/pre&gt;&lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;debug code 01&lt;/li&gt;
-&lt;/ol&gt;</summary><category term="javascript"></category></entry><entry><title>Repo Python</title><link href="https://cigadung.github.io/blog/repo-python" rel="alternate"></link><published>2016-07-22T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-22:blog/repo-python</id><summary type="html">&lt;p&gt;Trending repo untuk python&lt;/p&gt;
-&lt;table class="table table-hover table-striped"&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align="left"&gt;Repo&lt;/th&gt;
-&lt;th align="left"&gt;Description&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td align="left"&gt;&lt;a href="https://github.com/jxmorris12/PokemonGo-Finder"&gt;jxmorris12/PokemonGo-Finder&lt;/a&gt;&lt;/td&gt;
-&lt;td align="left"&gt;Live visualization of all the pokemon in your area... and more!&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align="left"&gt;&lt;a href="https://github.com/modrzew/pokeminer"&gt;modrzew/pokeminer&lt;/a&gt;&lt;/td&gt;
-&lt;td align="left"&gt;Pokemon location scraper&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;</summary><category term="python"></category></entry><entry><title>Pasang Webhook</title><link href="https://cigadung.github.io/blog/pasang-webhook" rel="alternate"></link><published>2016-07-11T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-11:blog/pasang-webhook</id><summary type="html">&lt;p&gt;&lt;img alt="" class="img-responsive" src="/images/hook.jpg"/&gt;&lt;/p&gt;
+&lt;/ol&gt;</summary><category term="javascript"></category></entry><entry><title>Pasang Webhook</title><link href="https://cigadung.github.io/blog/pasang-webhook" rel="alternate"></link><published>2016-07-11T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-11:blog/pasang-webhook</id><summary type="html">&lt;p&gt;&lt;img alt="" class="img-responsive" src="/images/hook.jpg"/&gt;&lt;/p&gt;
 &lt;p&gt;Post baru ini buat nyoba github webhook. &lt;/p&gt;
 &lt;p&gt;&lt;br/&gt;Flow-nya kurang lebih seperti ini: kalau ada push/commit baru di branch &lt;code&gt;source&lt;/code&gt;, server (CI/CD) akan melakukan &lt;code&gt;git pull&lt;/code&gt; dilanjutkan dengan proses build, dan kalau sukses, akan diteruskan dengan &lt;code&gt;git push&lt;/code&gt; ke &lt;code&gt;master&lt;/code&gt; branch.&lt;/p&gt;
 &lt;p&gt;&lt;br/&gt;Try no: 1. Hopefully, gak mesti increment :-D&lt;/p&gt;
