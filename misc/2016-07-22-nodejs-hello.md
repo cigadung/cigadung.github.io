@@ -19,4 +19,4 @@ app.listen(3000, function () {
 });
 ```
 
-1. debug code 01
+Hope, automatic build ok now.
