@@ -1,10 +1,9 @@
-Title: Main Pokemon Bareng
-Category: people
+Title: Demo & Test CBOT
+Category: misc
 Date: 2016-07-22
 Tags: demo,jumat sharing
 
-yok kita main pokemon go
-
+Post ini hanya untuk demo, jadi kontennya gak nyambung ... 
 
 | Repo | Description |
 |:-----|:------------|
@@ -13,4 +12,3 @@ yok kita main pokemon go
 | [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) | A book series on JavaScript. @YDKJS on twitter. |
 
 
-Post ini hanya untuk demo, jadi kontennya gak nyambung ... :smile:
