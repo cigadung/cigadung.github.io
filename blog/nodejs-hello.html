@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>People - Cigadung FC</title>
+    <title>Node.JS Hello - Cigadung FC</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -9,16 +9,21 @@
 
 
 
+<link rel="canonical" href="https://cigadung.github.io/blog/nodejs-hello">
 
-    <meta name="author" content="CFC Admin" />
-    <meta name="keywords" content="People" />
+        <meta name="author" content="CFC Admin" />
+        <meta name="keywords" content="javascript" />
+        <meta name="description" content="Hello World via Node.JS var express = require(&#39;express&#39;); var app = express(); app.get(&#39;/&#39;, function (req, res) { res.send(&#39;Hello World!&#39;); }); app.listen(3000, function () { console.log(&#39;Example app listening on port 3000!&#39;); }); debug code 01" />
 
-    <!-- Open Graph tags -->
         <meta property="og:site_name" content="Cigadung FC" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Cigadung FC"/>
-        <meta property="og:url" content="https://cigadung.github.io"/>
-        <meta property="og:description" content="Cigadung FC"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Node.JS Hello"/>
+        <meta property="og:url" content="https://cigadung.github.io/blog/nodejs-hello"/>
+        <meta property="og:description" content="Hello World via Node.JS var express = require(&#39;express&#39;); var app = express(); app.get(&#39;/&#39;, function (req, res) { res.send(&#39;Hello World!&#39;); }); app.listen(3000, function () { console.log(&#39;Example app listening on port 3000!&#39;); }); debug code 01"/>
+        <meta property="article:published_time" content="2016-07-22" />
+            <meta property="article:section" content="coding" />
+            <meta property="article:tag" content="javascript" />
+            <meta property="article:author" content="CFC Admin" />
 
 
     <!-- Bootstrap -->
@@ -35,8 +40,8 @@
 
 
 
-        <link href="https://cigadung.github.io/feeds/people.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Cigadung FC People ATOM Feed"/>
+        <link href="https://cigadung.github.io/feeds/coding.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Cigadung FC coding ATOM Feed"/>
 
 </head>
 <body>
@@ -58,13 +63,13 @@ Cigadung FC            </a>
                          <li><a href="https://cigadung.github.io/about">
                              About
                           </a></li>
-                        <li >
+                        <li class="active">
                             <a href="https://cigadung.github.io/category/coding.html">Coding</a>
                         </li>
                         <li >
                             <a href="https://cigadung.github.io/category/misc.html">Misc</a>
                         </li>
-                        <li class="active">
+                        <li >
                             <a href="https://cigadung.github.io/category/people.html">People</a>
                         </li>
             </ul>
@@ -85,23 +90,84 @@ Cigadung FC            </a>
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-            <article>
-                <h2><a href="https://cigadung.github.io/blog/penampakan-v20">Penampakan v2.0</a></h2>
-                <div class="summary"><p><img alt="" class="img-responsive" src="/images/people.jpg"/></p>
-<p>Ini versi penampakan yg lebih jelas.. Distribusi lokasi duduknya tidak simetris. Entah ada apa dipojokan situ ya :-D .. Ini foto masih acara jumat sharing, di markas Qinti Cigadung.</p>
-                    <a class="btn btn-default btn-xs" href="https://cigadung.github.io/blog/penampakan-v20">more ...</a>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="https://cigadung.github.io/blog/nodejs-hello"
+                       rel="bookmark"
+                       title="Permalink to Node.JS Hello">
+                        Node.JS Hello
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2016-07-22T00:00:00+07:00"> Fri 22 July 2016</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="https://cigadung.github.io/tags/javascript">javascript</a>
+    
+</footer><!-- /.post-info -->                    </div>
                 </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="https://cigadung.github.io/blog/pertamax">Pertamax</a></h2>
-                <div class="summary"><p><img alt="" class="img-responsive" src="/images/cfc1.jpg"/></p>
-<p>Supaya bukan hello-world, first post-nya kita isi foto penampakan :-D </p>
-<p><br/>Ini candid salah-satu acara rutin kita setiap hari jumat di Cigadung. Setiap minggu ada yg kebagian giliran untuk sharing ilmu kanuragan. Temanya bebas, tidak perlu tentang coding, dev dan sejenisnya, yg penting fun dan bermanfaat buat yg lain (tul gak?)..</p>
-                    <a class="btn btn-default btn-xs" href="https://cigadung.github.io/blog/pertamax">more ...</a>
-                </div>
-            </article>
-            <hr/>
+                <p>Hello World via Node.JS</p>
+<div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'express'</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">express</span><span class="p">();</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'/'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'Hello World!'</span><span class="p">);</span>
+<span class="p">});</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">listen</span><span class="p">(</span><span class="mi">3000</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Example app listening on port 3000!'</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+<ol>
+<li>debug code 01</li>
+</ol>
+            </div>
+            <!-- /.entry-content -->
+    <hr/>
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'cigadung'; // required: replace example with your forum shortname
+
+                    var disqus_identifier = 'nodejs-hello';
+                var disqus_url = 'https://cigadung.github.io/blog/nodejs-hello';
+
+            var disqus_config = function () {
+                this.language = "en";
+            };
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+        </article>
+    </section>
 
         </div>
         <div class="col-sm-3" id="sidebar">
@@ -119,13 +185,28 @@ Cigadung FC            </a>
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="https://cigadung.github.io/blog/penampakan-v20">
-                            Penampakan v2.0
+                        <a href="https://cigadung.github.io/blog/demo-test-cbot">
+                            Demo & Test CBOT
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="https://cigadung.github.io/blog/pertamax">
-                            Pertamax
+                        <a href="https://cigadung.github.io/blog/nodejs-hello">
+                            Node.JS Hello
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://cigadung.github.io/blog/pokemongo-lib-tools">
+                            PokemonGo Lib & Tools
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://cigadung.github.io/blog/repo-python">
+                            Repo Python
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://cigadung.github.io/blog/pasang-webhook">
+                            Pasang Webhook
                         </a>
                     </li>
                 </ul>

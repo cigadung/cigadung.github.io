@@ -86,6 +86,27 @@ Cigadung FC            </a>
     <div class="row">
         <div class="col-sm-9">
             <article>
+                <h2><a href="https://cigadung.github.io/blog/nodejs-hello">Node.JS Hello</a></h2>
+                <div class="summary"><p>Hello World via Node.JS</p>
+<div class="highlight"><pre><span></span><span class="kd">var</span> <span class="nx">express</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'express'</span><span class="p">);</span>
+<span class="kd">var</span> <span class="nx">app</span> <span class="o">=</span> <span class="nx">express</span><span class="p">();</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s1">'/'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">res</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="s1">'Hello World!'</span><span class="p">);</span>
+<span class="p">});</span>
+
+<span class="nx">app</span><span class="p">.</span><span class="nx">listen</span><span class="p">(</span><span class="mi">3000</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Example app listening on port 3000!'</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+<ol>
+<li>debug code 01</li>
+</ol>
+                    <a class="btn btn-default btn-xs" href="https://cigadung.github.io/blog/nodejs-hello">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
                 <h2><a href="https://cigadung.github.io/blog/pokemongo-lib-tools">PokemonGo Lib & Tools</a></h2>
                 <div class="summary"><p>Yg mau kekinian n mau utak-utik pokemon go, repo github di bawah bisa dicoba ..</p>
 <table class="table table-hover table-striped">
@@ -179,6 +200,11 @@ $ <span class="nb">source</span> bin/activate
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="https://cigadung.github.io/blog/nodejs-hello">
+                            Node.JS Hello
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="https://cigadung.github.io/blog/pokemongo-lib-tools">
                             PokemonGo Lib & Tools
                         </a>
@@ -205,6 +231,11 @@ $ <span class="nb">source</span> bin/activate
                         </a>
                     </li>
                     <li class="list-group-item tag-2">
+                        <a href="https://cigadung.github.io/tags/foto">
+                            Foto
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-2">
                         <a href="https://cigadung.github.io/tags/python">
                             python
                         </a>
@@ -214,14 +245,9 @@ $ <span class="nb">source</span> bin/activate
                             Pelican
                         </a>
                     </li>
-                    <li class="list-group-item tag-2">
-                        <a href="https://cigadung.github.io/tags/foto">
-                            Foto
-                        </a>
-                    </li>
                     <li class="list-group-item tag-4">
-                        <a href="https://cigadung.github.io/tags/demo">
-                            demo
+                        <a href="https://cigadung.github.io/tags/web">
+                            web
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
@@ -230,13 +256,8 @@ $ <span class="nb">source</span> bin/activate
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
-                        <a href="https://cigadung.github.io/tags/tools">
-                            tools
-                        </a>
-                    </li>
-                    <li class="list-group-item tag-4">
-                        <a href="https://cigadung.github.io/tags/web">
-                            web
+                        <a href="https://cigadung.github.io/tags/lib">
+                            lib
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
@@ -245,8 +266,13 @@ $ <span class="nb">source</span> bin/activate
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
-                        <a href="https://cigadung.github.io/tags/lib">
-                            lib
+                        <a href="https://cigadung.github.io/tags/javascript">
+                            javascript
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="https://cigadung.github.io/tags/demo">
+                            demo
                         </a>
                     </li>
                 </ul>
