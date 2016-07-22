@@ -9,6 +9,8 @@
 &lt;li&gt;debug 06&lt;/li&gt;
 &lt;li&gt;debug 07&lt;/li&gt;
 &lt;li&gt;debug 08&lt;/li&gt;
+&lt;li&gt;debug 09&lt;/li&gt;
+&lt;li&gt;debug 10&lt;/li&gt;
 &lt;/ol&gt;</summary></entry><entry><title>Node.JS Hello</title><link href="https://cigadung.github.io/blog/nodejs-hello" rel="alternate"></link><published>2016-07-22T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-22:blog/nodejs-hello</id><summary type="html">&lt;p&gt;Hello World via Node.JS&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;express&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'express'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;express&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
