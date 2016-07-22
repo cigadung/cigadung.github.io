@@ -29,7 +29,25 @@
 &lt;td align="left"&gt;Pokemon Go API lib&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</summary><category term="lib"></category><category term="tools"></category></entry><entry><title>Pelican-Install &amp; Config</title><link href="https://cigadung.github.io/blog/pelican-install-config" rel="alternate"></link><published>2016-07-09T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-09:blog/pelican-install-config</id><summary type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Check pip&lt;/span&gt;
+&lt;/table&gt;</summary><category term="lib"></category><category term="tools"></category></entry><entry><title>Repo Python</title><link href="https://cigadung.github.io/blog/repo-python" rel="alternate"></link><published>2016-07-22T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-22:blog/repo-python</id><summary type="html">&lt;p&gt;Trending repo untuk python&lt;/p&gt;
+&lt;table class="table table-hover table-striped"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align="left"&gt;Repo&lt;/th&gt;
+&lt;th align="left"&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="left"&gt;&lt;a href="https://github.com/jxmorris12/PokemonGo-Finder"&gt;jxmorris12/PokemonGo-Finder&lt;/a&gt;&lt;/td&gt;
+&lt;td align="left"&gt;Live visualization of all the pokemon in your area... and more!&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="left"&gt;&lt;a href="https://github.com/modrzew/pokeminer"&gt;modrzew/pokeminer&lt;/a&gt;&lt;/td&gt;
+&lt;td align="left"&gt;Pokemon location scraper&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</summary><category term="python"></category></entry><entry><title>Pelican-Install &amp; Config</title><link href="https://cigadung.github.io/blog/pelican-install-config" rel="alternate"></link><published>2016-07-09T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-09:blog/pelican-install-config</id><summary type="html">&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Check pip&lt;/span&gt;
 $ pip install --upgrade pip
 $ pip -V
 pip 8.1.1 from /usr/lib/python2.7/dist-packages &lt;span class="o"&gt;(&lt;/span&gt;python 2.7&lt;span class="o"&gt;)&lt;/span&gt;
