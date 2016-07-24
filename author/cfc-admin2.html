@@ -83,6 +83,28 @@ Cigadung FC            </a>
     <div class="row">
         <div class="col-sm-9">
             <article>
+                <h2><a href="https://cigadung.github.io/blog/pelican-install-config">Pelican-Install & Config</a></h2>
+                <div class="summary"><div class="highlight"><pre><span></span><span class="c1"># Check pip</span>
+$ pip install --upgrade pip
+$ pip -V
+pip 8.1.1 from /usr/lib/python2.7/dist-packages <span class="o">(</span>python 2.7<span class="o">)</span>
+
+<span class="c1"># Install virtualenv</span>
+$ sudo pip install virtualenv
+</pre></div>
+<div class="highlight"><pre><span></span><span class="c1"># Install virtualenv</span>
+$ virtualenv cigadung-pelican
+New python executable in /home/em/statik/cigadung-pelican/bin/python
+...
+<span class="c1"># Activate</span>
+$ <span class="nb">cd</span> cigadung-pelican/
+$ <span class="nb">source</span> bin/activate
+<span class="o">(</span>cigadung-pelican<span class="o">)</span> em@g473 ...</pre></div>
+                    <a class="btn btn-default btn-xs" href="https://cigadung.github.io/blog/pelican-install-config">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
                 <h2><a href="https://cigadung.github.io/blog/web-cigadung-fc">Web Cigadung FC</a></h2>
                 <div class="summary"><p><img alt="" class="img-responsive" src="/images/cfc3.jpg"/></p>
 <p>Ok, ini seed post yg kedua, mau cerita sedikit tentang web Cigadung FC.</p>
@@ -126,6 +148,11 @@ Cigadung FC            </a>
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
+                        <a href="https://cigadung.github.io/blog/snippet-cbot-untuk-post-barusan">
+                            Snippet CBOT untuk Post Barusan
+                        </a>
+                    </li>
+                    <li class="list-group-item">
                         <a href="https://cigadung.github.io/blog/trending-hari-ini">
                             Trending Hari Ini
                         </a>
@@ -145,17 +172,17 @@ Cigadung FC            </a>
                             Penampakan v2.0
                         </a>
                     </li>
-                    <li class="list-group-item">
-                        <a href="https://cigadung.github.io/blog/pelican-install-config">
-                            Pelican-Install & Config
-                        </a>
-                    </li>
                 </ul>
             </li>
 
 
             <li class="list-group-item"><a href="https://cigadung.github.io/tags"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
                 <ul class="list-group " id="tags">
+                    <li class="list-group-item tag-1">
+                        <a href="https://cigadung.github.io/tags/foto">
+                            Foto
+                        </a>
+                    </li>
                     <li class="list-group-item tag-1">
                         <a href="https://cigadung.github.io/tags/jumat-sharing">
                             Jumat Sharing
@@ -166,14 +193,9 @@ Cigadung FC            </a>
                             Pelican
                         </a>
                     </li>
-                    <li class="list-group-item tag-1">
-                        <a href="https://cigadung.github.io/tags/foto">
-                            Foto
-                        </a>
-                    </li>
                     <li class="list-group-item tag-4">
-                        <a href="https://cigadung.github.io/tags/webhook">
-                            webhook
+                        <a href="https://cigadung.github.io/tags/github">
+                            github
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
@@ -187,13 +209,18 @@ Cigadung FC            </a>
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
-                        <a href="https://cigadung.github.io/tags/github">
-                            github
+                        <a href="https://cigadung.github.io/tags/javascript">
+                            javascript
                         </a>
                     </li>
                     <li class="list-group-item tag-4">
-                        <a href="https://cigadung.github.io/tags/javascript">
-                            javascript
+                        <a href="https://cigadung.github.io/tags/snippet">
+                            snippet
+                        </a>
+                    </li>
+                    <li class="list-group-item tag-4">
+                        <a href="https://cigadung.github.io/tags/webhook">
+                            webhook
                         </a>
                     </li>
                 </ul>

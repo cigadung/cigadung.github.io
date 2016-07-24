@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>People - Cigadung FC</title>
+    <title>snippet - Cigadung FC</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -11,7 +11,7 @@
 
 
     <meta name="author" content="CFC Admin" />
-    <meta name="keywords" content="People" />
+    <meta name="keywords" content="snippet" />
 
     <!-- Open Graph tags -->
         <meta property="og:site_name" content="Cigadung FC" />
@@ -35,8 +35,6 @@
 
 
 
-        <link href="https://cigadung.github.io/feeds/people.atom.xml" type="application/atom+xml" rel="alternate"
-              title="Cigadung FC People ATOM Feed"/>
 
 </head>
 <body>
@@ -64,7 +62,7 @@ Cigadung FC            </a>
                         <li >
                             <a href="https://cigadung.github.io/category/misc.html">Misc</a>
                         </li>
-                        <li class="active">
+                        <li >
                             <a href="https://cigadung.github.io/category/people.html">People</a>
                         </li>
             </ul>
@@ -86,19 +84,18 @@ Cigadung FC            </a>
     <div class="row">
         <div class="col-sm-9">
             <article>
-                <h2><a href="https://cigadung.github.io/blog/penampakan-v20">Penampakan v2.0</a></h2>
-                <div class="summary"><p><img alt="" class="img-responsive" src="/images/people.jpg"/></p>
-<p>Ini versi penampakan yg lebih jelas.. Distribusi lokasi duduknya tidak simetris. Entah ada apa dipojokan situ ya :-D .. Ini foto masih acara jumat sharing, di markas Qinti Cigadung.</p>
-                    <a class="btn btn-default btn-xs" href="https://cigadung.github.io/blog/penampakan-v20">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="https://cigadung.github.io/blog/pertamax">Pertamax</a></h2>
-                <div class="summary"><p><img alt="" class="img-responsive" src="/images/cfc1.jpg"/></p>
-<p>Supaya bukan hello-world, first post-nya kita isi foto penampakan :-D </p>
-<p><br/>Ini candid salah-satu acara rutin kita setiap hari jumat di Cigadung. Setiap minggu ada yg kebagian giliran untuk sharing ilmu kanuragan. Temanya bebas, tidak perlu tentang coding, dev dan sejenisnya, yg penting fun dan bermanfaat buat yg lain (tul gak?)..</p>
-                    <a class="btn btn-default btn-xs" href="https://cigadung.github.io/blog/pertamax">more ...</a>
+                <h2><a href="https://cigadung.github.io/blog/snippet-cbot-untuk-post-barusan">Snippet CBOT untuk Post Barusan</a></h2>
+                <div class="summary"><p>Berikut snippet perintah yg digunakan untuk men-generate post yang barusan (https://cigadung.github.io/blog/trending-hari-ini)</p>
+<div class="highlight"><pre><span></span><span class="c1"># prepare new post</span>
+.new post
+.title <span class="nb">set</span> Trending Hari Ini
+.content add Repo trending di github hari ini, untuk semua bahasa.
+
+<span class="c1"># get/print trending list + select + render</span>
+.ght list
+.ght <span class="k">select</span> all
+.ght render ...</pre></div>
+                    <a class="btn btn-default btn-xs" href="https://cigadung.github.io/blog/snippet-cbot-untuk-post-barusan">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -119,13 +116,8 @@ Cigadung FC            </a>
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="https://cigadung.github.io/blog/penampakan-v20">
-                            Penampakan v2.0
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="https://cigadung.github.io/blog/pertamax">
-                            Pertamax
+                        <a href="https://cigadung.github.io/blog/snippet-cbot-untuk-post-barusan">
+                            Snippet CBOT untuk Post Barusan
                         </a>
                     </li>
                 </ul>

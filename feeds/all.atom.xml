@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Cigadung FC</title><link href="https://cigadung.github.io/" rel="alternate"></link><link href="https://cigadung.github.io/feeds/all.atom.xml" rel="self"></link><id>https://cigadung.github.io/</id><updated>2016-07-25T00:00:00+07:00</updated><entry><title>Trending Hari Ini</title><link href="https://cigadung.github.io/blog/trending-hari-ini" rel="alternate"></link><published>2016-07-25T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-25:blog/trending-hari-ini</id><summary type="html">&lt;p&gt;Repo trending di github hari ini, untuk semua bahasa.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Cigadung FC</title><link href="https://cigadung.github.io/" rel="alternate"></link><link href="https://cigadung.github.io/feeds/all.atom.xml" rel="self"></link><id>https://cigadung.github.io/</id><updated>2016-07-25T00:00:00+07:00</updated><entry><title>Snippet CBOT untuk Post Barusan</title><link href="https://cigadung.github.io/blog/snippet-cbot-untuk-post-barusan" rel="alternate"></link><published>2016-07-25T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-25:blog/snippet-cbot-untuk-post-barusan</id><summary type="html">&lt;p&gt;Berikut snippet perintah yg digunakan untuk men-generate post yang barusan (https://cigadung.github.io/blog/trending-hari-ini)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# prepare new post&lt;/span&gt;
+.new post
+.title &lt;span class="nb"&gt;set&lt;/span&gt; Trending Hari Ini
+.content add Repo trending di github hari ini, untuk semua bahasa.
+
+&lt;span class="c1"&gt;# get/print trending list + select + render&lt;/span&gt;
+.ght list
+.ght &lt;span class="k"&gt;select&lt;/span&gt; all
+.ght render
+
+&lt;span class="c1"&gt;# check&lt;/span&gt;
+.print
+.gist
+
+&lt;span class="c1"&gt;# submit + push&lt;/span&gt;
+.submit
+.push
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Notes: &lt;code&gt;.ght select all&lt;/code&gt; memindahkan semua item pada list &lt;code&gt;.ght list&lt;/code&gt; untuk bahasa yg aktif (&lt;code&gt;.ght switch all|java|javascript|python&lt;/code&gt;). Kalau mau custom, pilih item yg sesuai dengan perintah &lt;code&gt;.ght select &amp;lt;index&amp;gt;&lt;/code&gt; dan sebelumnya, untuk mengetahui index, via command &lt;code&gt;.ght print&lt;/code&gt;.&lt;/p&gt;</summary><category term="snippet"></category></entry><entry><title>Trending Hari Ini</title><link href="https://cigadung.github.io/blog/trending-hari-ini" rel="alternate"></link><published>2016-07-25T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-25:blog/trending-hari-ini</id><summary type="html">&lt;p&gt;Repo trending di github hari ini, untuk semua bahasa.&lt;/p&gt;
 &lt;table class="table table-hover table-striped"&gt;
 &lt;thead&gt;
 &lt;tr&gt;
