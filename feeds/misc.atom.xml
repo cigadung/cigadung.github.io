@@ -1,5 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Cigadung FC</title><link href="https://cigadung.github.io/" rel="alternate"></link><link href="https://cigadung.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://cigadung.github.io/</id><updated>2016-07-25T00:00:00+07:00</updated><entry><title>Trending Hari Ini</title><link href="https://cigadung.github.io/blog/trending-hari-ini" rel="alternate"></link><published>2016-07-25T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-25:blog/trending-hari-ini</id><summary type="html">&lt;p&gt;Repo trending di github hari ini, untuk semua bahasa.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Cigadung FC</title><link href="https://cigadung.github.io/" rel="alternate"></link><link href="https://cigadung.github.io/feeds/misc.atom.xml" rel="self"></link><id>https://cigadung.github.io/</id><updated>2016-08-01T00:00:00+07:00</updated><entry><title>Meet Dinda, Your Meeting Assistant</title><link href="https://cigadung.github.io/blog/meet-dinda-your-meeting-assistant" rel="alternate"></link><published>2016-08-01T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-08-01:blog/meet-dinda-your-meeting-assistant</id><summary type="html">&lt;p&gt;Melengkapi bot yg sudah ada, mulai hari di cigadung#general &lt;strong&gt;dinda&lt;/strong&gt; sudah mulai aktif. List perintah dapat dilihat dengan &lt;code&gt;.ms help&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;.ms new meeting - New service session &lt;span class="o"&gt;(&lt;/span&gt;idle -&amp;gt; active&lt;span class="o"&gt;)&lt;/span&gt;
+.ms cancel - Cancel session &lt;span class="o"&gt;(&lt;/span&gt;active -&amp;gt; idle&lt;span class="o"&gt;)&lt;/span&gt;
+.ms &lt;span class="nb"&gt;help&lt;/span&gt; - Display this message
+.ms status - Display service json
+.ms &lt;span class="nb"&gt;set&lt;/span&gt; reminder &amp;lt;s&amp;gt; - Set reminder interval s seconds
+.participant add &amp;lt;u..&amp;gt; - Add conversation users u..
+.participant remove &amp;lt;u..&amp;gt; - Remove users u..
+.participant reset - Reset users to default &lt;span class="o"&gt;(&lt;/span&gt;only host&lt;span class="o"&gt;)&lt;/span&gt;
+.participant all - Set all recognized users to active session
+.title &amp;lt;t&amp;gt; - Set title of the session
+.token assign &amp;lt;u..&amp;gt; - Assign speech token to users u..
+.token reset - Reset / erase all tokens
+.token status - Print all token related variables
+.conclude - Render + gist &lt;span class="o"&gt;(&lt;/span&gt;active -&amp;gt; concluded&lt;span class="o"&gt;)&lt;/span&gt;
+.reactivate - Revert / reactivate &lt;span class="o"&gt;(&lt;/span&gt;concluded-&amp;gt;active&lt;span class="o"&gt;)&lt;/span&gt;
+.close - End session &lt;span class="o"&gt;(&lt;/span&gt;concluded -&amp;gt; idle&lt;span class="o"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Workflow yg simple misalnya spt ini:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# open session&lt;/span&gt;
+.ms new meeting
+
+&lt;span class="c1"&gt;# add participant&lt;/span&gt;
+.participant add dewiprass edimulyana rifani adil arifpriyop
+
+&lt;span class="c1"&gt;# cek status&lt;/span&gt;
+.ms status
+
+&lt;span class="c1"&gt;# meeting title &lt;/span&gt;
+.title koordinasi project batman
+
+&lt;span class="c1"&gt;# recording&lt;/span&gt;
+&lt;span class="o"&gt;[&lt;/span&gt;any chat of the participants is captured&lt;span class="o"&gt;]&lt;/span&gt;
+
+&lt;span class="c1"&gt;# assign chat/speech token&lt;/span&gt;
+.token assign adil arifpriyop
+
+&lt;span class="c1"&gt;# cek token&lt;/span&gt;
+.token status
+
+&lt;span class="c1"&gt;# conclude -&amp;gt; gist&lt;/span&gt;
+.conclude
+
+&lt;span class="c1"&gt;# close session&lt;/span&gt;
+.close
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="snippet"></category></entry><entry><title>Trending Hari Ini</title><link href="https://cigadung.github.io/blog/trending-hari-ini" rel="alternate"></link><published>2016-07-25T00:00:00+07:00</published><author><name>CFC Admin</name></author><id>tag:cigadung.github.io,2016-07-25:blog/trending-hari-ini</id><summary type="html">&lt;p&gt;Repo trending di github hari ini, untuk semua bahasa.&lt;/p&gt;
 &lt;table class="table table-hover table-striped"&gt;
 &lt;thead&gt;
 &lt;tr&gt;
